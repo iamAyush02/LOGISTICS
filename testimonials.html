@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ARB Logistics</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f5f6f8;
+color:#333;
+}
+
+/* HERO */
+
+.hero{
+padding:80px 10%;
+text-align:center;
+background:white;
+}
+
+.hero h1{
+font-size:36px;
+margin-bottom:15px;
+}
+
+.hero p{
+color:#666;
+max-width:700px;
+margin:auto;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:60px;
+margin-top:40px;
+}
+
+.stat h2{
+font-size:28px;
+}
+
+.stat p{
+color:#777;
+font-size:14px;
+}
+
+/* CLIENT LOGOS */
+
+.clients{
+padding:30px;
+text-align:center;
+background:#fafafa;
+}
+
+.clients img{
+height:30px;
+margin:0 20px;
+opacity:.6;
+}
+
+/* TESTIMONIALS */
+
+.section{
+padding:70px 10%;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.testimonial-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.testimonial{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.testimonial img{
+width:40px;
+height:40px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+.stars{
+color:#ff9900;
+margin-bottom:10px;
+}
+
+/* CASE STUDY */
+
+.case-study{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+background:white;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+overflow:hidden;
+margin-top:60px;
+}
+
+.case-study img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.case-content{
+padding:30px;
+}
+
+.case-content button{
+margin-top:15px;
+padding:10px 20px;
+border:none;
+background:black;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* FORM */
+
+.form-section{
+padding:70px 10%;
+text-align:center;
+}
+
+.form-box{
+max-width:500px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.form-box input,
+.form-box textarea{
+width:100%;
+padding:12px;
+margin-bottom:12px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+.form-box button{
+background:black;
+color:white;
+border:none;
+padding:12px;
+width:100%;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:#ccc;
+padding:40px 10%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+footer h4{
+margin-bottom:10px;
+color:white;
+}
+
+footer p{
+font-size:14px;
+margin-bottom:6px;
+}
+
+@media(max-width:900px){
+
+.stats{
+flex-direction:column;
+gap:20px;
+}
+
+.case-study{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>Empowering the World's Most Ambitious Supply Chains</h1>
+
+<p>Join thousands of companies that trust ARB Logistics to streamline operations and accelerate growth.</p>
+
+<div class="stats">
+
+<div class="stat">
+<h2>99.8%</h2>
+<p>On-Time Delivery</p>
+</div>
+
+<div class="stat">
+<h2>$60+</h2>
+<p>Global Partners</p>
+</div>
+
+<div class="stat">
+<h2>25%</h2>
+<p>Cost Reduction</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CLIENTS -->
+
+<div class="clients">
+
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png">
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png">
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png">
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968841.png">
+
+</div>
+
+
+<!-- TESTIMONIALS -->
+
+<section class="section">
+
+<h2>Success Stories</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+
+<div class="stars">★★★★★</div>
+
+<p>ARB Logistics helped us scale our global operations with fast and reliable delivery.</p>
+
+</div>
+
+
+<div class="testimonial">
+
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+
+<div class="stars">★★★★★</div>
+
+<p>Their technology-driven logistics platform improved our supply chain efficiency.</p>
+
+</div>
+
+
+<div class="testimonial">
+
+<img src="https://randomuser.me/api/portraits/men/52.jpg">
+
+<div class="stars">★★★★★</div>
+
+<p>Professional team and great service quality.</p>
+
+</div>
+
+</div>
+
+
+<!-- CASE STUDY -->
+
+<div class="case-study">
+
+<img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d">
+
+<div class="case-content">
+
+<h3>Next-Gen Cold Chain: BioTech Logistics</h3>
+
+<p>Learn how ARB Logistics enabled temperature-controlled delivery across global supply chains.</p>
+
+<h4>0% Damage Rate</h4>
+
+<h4>+42% Efficiency</h4>
+
+<button>Read Case Study</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FORM -->
+
+<section class="form-section">
+
+<h2>Share Your Experience</h2>
+
+<p>We value your feedback.</p>
+
+<div class="form-box">
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email">
+
+<textarea rows="4" placeholder="Your Experience"></textarea>
+
+<button>Submit Feedback</button>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div>
+<h4>ARB Logistics</h4>
+<p>Reliable logistics solutions worldwide.</p>
+</div>
+
+<div>
+<h4>Services</h4>
+<p>Global Freight</p>
+<p>Warehousing</p>
+<p>Last Mile Delivery</p>
+</div>
+
+<div>
+<h4>Company</h4>
+<p>About</p>
+<p>Careers</p>
+<p>Contact</p>
+</div>
+
+<div>
+<h4>Support</h4>
+<p>support@arblogistics.com</p>
+<p>+91 9876543210</p>
+</div>
+
+</footer>
+
+</body>
+</html>
